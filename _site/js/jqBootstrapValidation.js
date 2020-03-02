@@ -284,7 +284,7 @@
 
           $.each(validatorNames, function (i, el) {
             // Set up the 'override' message
-            var message = $this.data("validation" + el + "Message");
+            var message = $this.data("validation" + el + "Mensaje");
             var hasOverrideMessage = (message !== undefined);
             var foundValidator = false;
             message =
@@ -604,7 +604,7 @@
                     rrjqbvValidator.message = data.message;
                   }
                   rrjqbvValidator.lastFinished = true;
-                  rrjqbvThis.data("validation" + rrjqbvValidator.validatorName + "Message", rrjqbvValidator.message);
+                  rrjqbvThis.data("validation" + rrjqbvValidator.validatorName + "Mensaje", rrjqbvValidator.message);
                   // Timeout is set to avoid problems with the events being considered 'already fired'
                   setTimeout(function () {
                     rrjqbvThis.trigger("change.validation");
@@ -650,7 +650,7 @@
                     validator.message = data.message;
                   }
                   validator.lastFinished = true;
-                  $this.data("validation" + validator.validatorName + "Message", validator.message);
+                  $this.data("validation" + validator.validatorName + "Mensaje", validator.message);
                   // Timeout is set to avoid problems with the events being considered 'already fired'
                   setTimeout(function () {
                     $this.trigger("change.validation");
@@ -661,7 +661,7 @@
                 validator.lastValid = true;
                 validator.message = "ajax call failed";
                 validator.lastFinished = true;
-                $this.data("validation" + validator.validatorName + "Message", validator.message);
+                $this.data("validation" + validator.validatorName + "Mensaje", validator.message);
                 // Timeout is set to avoid problems with the events being considered 'already fired'
                 setTimeout(function () {
                   $this.trigger("change.validation");

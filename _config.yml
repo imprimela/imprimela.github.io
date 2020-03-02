@@ -35,29 +35,24 @@ color:
 footer:
   copyright: Leonel Andres Alfonso
   location: Bogotá - Colombia 
-  social: Around the Web
-  credits: Credits
-0
+  social: Red social
+  credits: telefonos 
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/imprimela
   - title: facebook
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Carrera 73b 6b 43
+  - line: Bogotá - Colombia
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: '3168126033  -  3504771899'
 
 # Build settings
 markdown: kramdown
